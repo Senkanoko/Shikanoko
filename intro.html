@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+        <title>Shikanoko Nokonoko Koshitantan</title>
+        <style>
+        .title {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        spc {
+            line-height: normal;
+        }
+        .imgspc{
+            padding: 50px;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+        .text-between {
+            text-align: center;
+        }
+        .mid-button {
+            display: flex;
+            justify-content: center;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        p {
+            font-family: "Times New Roman", Times, serif;
+        }
+        </style>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+        <h1 class="rainbow">Introduction</h1>
+        <div class="clearfix">
+                <div class="left">
+                <img src="images/shika_anim.png" alt="shika" style="width:auto;height:auto">
+                </div>
+                
+                <div class="right">
+                <img  src="images/shika_anim.png" alt="shika" style="width:auto;height:auto">
+                </div>
+                <div class="text-between">
+                       <h3>
+                           <spc>
+                         Koshi Torako is a high school student at Tokyo Metropolitan Hinominami High School.
+                         During her commute to school one day, she experiences a cold sensation touching her face. 
+                           </spc>
+                       </h3>
+                       <h3>
+                           <spc>
+                         Upon investigation, she discovers a girl with a runny nose and antlers entangled in an electric wire, rendering her immobile. 
+                         Upon assisting the girl, named Shikanoko Noko, who possesses peculiar "antlers, "Torako's life as an honor student in disguise becomes disrupted.
+                           </spc>
+                       </h3>
+                       <h3>
+                           <spc>
+                         This unconventional encounter marks the commencement of the "Girl Meets Deer" story, where a former delinquent encounters a deer, or does she?
+                           </spc>
+                       </h3>
+                </div>
+          <div class="mid-button">
+                           <button type="button" id="redirectBtn">Click here to return!</button>
+                           <script>
+                           document.getElementById('redirectBtn').onclick = function() {
+                                window.location.href = 'index.html'; 
+                           };
+                           </script>
+                       </h3>
+          </div>
+        
+    </body>
+
+</html>
