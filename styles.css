@@ -20,6 +20,43 @@ h3 {
     animation: colorRotate 3s linear 0s infinite;
 }
 
+.title {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+spc {
+            right: 0px;
+    }
+
+.imgspc{
+            padding: 50px;
+        }
+
+.left{
+            float: left;
+    }
+
+.right{
+            float: right;
+    }
+
+.text-between {
+            text-align: center;
+    }
+
+.clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+}
+
+p {
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+}
+
 @keyframes colorRotate {
   from {
     color: #6666ff;
